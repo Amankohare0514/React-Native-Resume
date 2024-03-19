@@ -3,7 +3,6 @@ import { TouchableOpacity, Text, StyleSheet, Linking } from 'react-native';
 
 const TagWithLink = ({ label, link }) => {
   const handlePress = () => {
-    // Open the link when the tag is pressed
     Linking.openURL(link);
   };
 
@@ -16,15 +15,16 @@ const TagWithLink = ({ label, link }) => {
 
 const styles = StyleSheet.create({
   tag: {
-    backgroundColor: '#007bff',
-    paddingVertical: 5,
-    paddingHorizontal: 10,
-    borderRadius: 10,
-    margin: 5,
+    backgroundColor: '#f0f0f0',
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 6,
+    margin: 3,
+   
   },
   label: {
-    color: '#fff',
-    fontSize: 16,
+    color: '#000',
+    fontSize: 11,
   },
 });
 

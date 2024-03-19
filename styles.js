@@ -24,6 +24,9 @@ const styles = StyleSheet.create({
     margin: 2,
     borderRadius: 5,
   },
+  adress: {
+    textAlign: 'center'
+  },
   linkText: {
     color: '#fff',
     fontWeight: 'bold',
@@ -31,7 +34,7 @@ const styles = StyleSheet.create({
   hr: {
     borderTopColor: '#afa4a7',
     borderTopWidth: 1,
-    marginTop:10,
+    marginTop: 10,
   },
   firstcompany: {
     marginLeft: 2,
@@ -54,7 +57,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   projects: {
-    marginLeft:2,
+    marginLeft: 2,
   },
   project: {
     fontWeight: 'bold',
@@ -69,31 +72,31 @@ const styles = StyleSheet.create({
     fontSize: 13,
     fontWeight: '300',
   },
-  educations:{
+  educations: {
     marginLeft: 4,
   },
-  education:{
+  education: {
     fontWeight: 'bold',
     fontSize: 15,
     marginTop: 6,
   },
-  college:{
+  college: {
     fontSize: 13,
     fontWeight: '400',
   },
-  field:{
+  field: {
     fontSize: 11,
     fontWeight: '400',
   },
-  skills:{
+  skills: {
     marginLeft: 4,
   },
-  skill:{
+  skill: {
     fontWeight: 'bold',
     fontSize: 15,
     marginTop: 6,
   },
-  programmin:{
+  programmin: {
     fontSize: 11,
     fontWeight: '400',
   }

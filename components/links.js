@@ -6,10 +6,11 @@ function Links() {
     return (
         <>
         <View style={styles.row}>
-        <TagWithLink label="Github" link="https://github.com/Amankohare0514" />
-        <TagWithLink label="Linkedin" link="https://www.linkedin.com/in/aman-kohare-3a0678235/" />
+        <TagWithLink label="Github.com" link="https://github.com/Amankohare0514" />
+        <TagWithLink label="Linkedin.com" link="https://www.linkedin.com/in/aman-kohare-3a0678235/" />
         <TagWithLink label="Portfolio" link="https://heyaman.vercel.app/" />
-        <TagWithLink label="Gmail" link="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhpkMkKCMKHRSKBnHLzXMxtltFPSPJKPSFWMJTpxqtBXFkNmRcgdlnRbXlDpltNxgrbhhP" />
+        <TagWithLink label="Leetcode" link="https://leetcode.com/aman__0514/" />
+        <TagWithLink label="Gmail.com" link="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhpkMkKCMKHRSKBnHLzXMxtltFPSPJKPSFWMJTpxqtBXFkNmRcgdlnRbXlDpltNxgrbhhP" />
         </View>
         </>
     )

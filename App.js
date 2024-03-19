@@ -1,5 +1,5 @@
 import React from "react"
-import { ScrollView, Text, View } from "react-native"
+import { SafeAreaView, ScrollView, Text, View } from "react-native"
 import styles from "./styles"
 import Projects from "./components/projects"
 import Experience from "./components/experience"
@@ -9,9 +9,11 @@ import Skills from "./components/skills"
 function App() {
   return (
     <>
+    <SafeAreaView>
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.container}>
           <Text style={styles.title}>Aman Kohare</Text>
+          <Text style={styles.adress}>Khargone, Madhya Pradesh, India, 451220 | +91 6268518514</Text>
           <Links />
           <View style={styles.hr}></View>
           <Experience />
@@ -24,6 +26,7 @@ function App() {
           <View style={styles.hr}></View>
         </View >
       </ScrollView>
+      </SafeAreaView>
     </>
   )
 }
